@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moto OTA Killer</string>
+    <string name="xposed_module_description" translatable="false">Blocks com.motorola.ccc.ota from posting notifications and kills its process if it ever starts.</string>
+    <string-array name="xposed_scope">
+        <item>android</item>
+        <item>com.motorola.ccc.ota</item>
+    </string-array>
+</resources>
